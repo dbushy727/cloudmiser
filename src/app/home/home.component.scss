@@ -295,7 +295,7 @@ section {
 }
 
 body {
-  line-height: 1
+  line-height: 1;
 }
 
 ol,
@@ -1092,7 +1092,7 @@ ul.inline li {
 .cta--primary,
 .cta--blue,
 .cta--primary-dark {
-  background-color: #ff7a59
+  background-color: #33475b;
 }
 
 .cta--primary,
@@ -1504,10 +1504,10 @@ a[class*=' cta--'] .hsg-icon.hsg-icon-facebook-messenger {
   border-radius: .1875rem
 }
 
-.nav-toolbar__tools {
-  background: url("//cdn2.hubspot.net/hub/53/file-1759975551-png/assets/blog.hubspot.com/images/search-icon.png") no-repeat center;
-  background-size: 1.5rem
-}
+// .nav-toolbar__tools {
+//   background: url("//cdn2.hubspot.net/hub/53/file-1759975551-png/assets/blog.hubspot.com/images/search-icon.png") no-repeat center;
+//   background-size: 1.5rem
+// }
 
 .nav-toolbar__tools .header-tools__search-icon {
   display: block;
@@ -1791,7 +1791,7 @@ a[class*=' cta--'] .hsg-icon.hsg-icon-facebook-messenger {
   position: fixed;
   top: 50%;
   left: 50%;
-  background: #f5f8fa url("//cdn2.hubspot.net/hub/53/file-1186944780-gif/assets/hubspot.com/V2-Global/v2-sprocket-loader.gif") no-repeat center;
+  // background: #f5f8fa url("//cdn2.hubspot.net/hub/53/file-1186944780-gif/assets/hubspot.com/V2-Global/v2-sprocket-loader.gif") no-repeat center;
   background-size: 2.25rem 2.25rem;
   border-radius: .1875rem;
   -webkit-transform: translate(-50%, -50%);
@@ -2309,7 +2309,7 @@ a[class*=' cta--'] .hsg-icon.hsg-icon-facebook-messenger {
 
 .hsg-nav__group-item--search input {
   background-color: #fff;
-  background-image: url("//cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/search%20icon.png");
+  // background-image: url("//cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/search%20icon.png");
   background-position: right 1rem center;
   background-repeat: no-repeat;
   background-size: 1rem;
@@ -2397,7 +2397,7 @@ a[class*=' cta--'] .hsg-icon.hsg-icon-facebook-messenger {
 }
 
 .hsg-nav__globe-icon::before {
-  content: url("//cdn2.hubspot.net/hubfs/53/Logos/language-switcher-icon.svg");
+  // content: url("//cdn2.hubspot.net/hubfs/53/Logos/language-switcher-icon.svg");
   display: inline-block;
   width: 1rem;
   height: 1rem;
@@ -3776,7 +3776,6 @@ a[class*=' cta--'] .hsg-icon.hsg-icon-facebook-messenger {
   bottom: 0;
   right: 0;
   left: 0;
-  background-image: url("//cdn2.hubspot.net/hubfs/53/assets/hubspot.com/inbound/Tablet-Grass-with-Stroke.svg");
   width: 100%;
   height: 8rem;
   background-repeat: no-repeat;
@@ -3791,7 +3790,7 @@ a[class*=' cta--'] .hsg-icon.hsg-icon-facebook-messenger {
 }
 
 .homepage-hero__content {
-  padding: 4rem 0 30rem
+  padding: 4rem 0 15rem
 }
 
 @media (min-width: 686px) and (max-width: 1024px) {
