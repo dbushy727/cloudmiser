@@ -2016,14 +2016,16 @@ a[class*=' cta--'] .hsg-icon.hsg-icon-facebook-messenger {
 }
 
 .hsg-nav__group-item--has-dropdown .hsg-nav__link-label::after {
-  content: '\E004';
+  content: '';
   display: inline-block;
+  margin: 0 0.25rem 0 0.5rem;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #7c98b6;
   position: relative;
-  color: #7c98b6;
-  font-family: 'hsg-icons';
-  font-size: 8px;
-  line-height: 1;
-  margin: 0 0.25rem 0 1rem
+  top: -2px;
 }
 
 .hsg-nav__dropdown-list {

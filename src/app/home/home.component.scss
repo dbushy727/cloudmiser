@@ -1094,7 +1094,7 @@ ul.inline li {
 .cta--primary:hover,
 .cta--blue:hover,
 .cta--primary-dark:hover {
-  background-color: #ff8f73
+  background-color: darken(#33475b, 20%);
 }
 
 .cta--primary:active,
@@ -3245,7 +3245,14 @@ a[class*=' cta--'] .hsg-icon.hsg-icon-facebook-messenger {
 
 @media (min-width: 768px) {
   .hsg-cta-block {
-    padding: 7.5rem 0
+    padding: 7.5rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hsg-cta-block {
+    background-position: center 24em;
+    padding: 4rem 0 14rem 0;
   }
 }
 
@@ -4601,8 +4608,8 @@ html [class*='hsg-ie'] .home-hero-video__infinite {
 }
 
 .cta--primary.homepage-hero-cta {
-  background: #33475b !important;
-  color: #fff !important;
+  // background: #33475b !important;
+  // color: #fff !important;
 
-  &:hover { background: darken(#33475b, 20%) !important; }
+  // &:hover { background: darken(#33475b, 20%) !important; }
 }
