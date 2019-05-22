@@ -3751,10 +3751,14 @@ a[class*=' cta--'] .hsg-icon.hsg-icon-facebook-messenger {
 .homepage-hero {
   background-image: -webkit-gradient(linear, left bottom, right top, from(#425b76), color-stop(#0091b0), color-stop(#00a4bd), to(#7fd1de));
   background-image: -webkit-linear-gradient(bottom left, #425b76, #0091b0, #00a4bd, #7fd1de);
-  background-image: url("https://images.unsplash.com/photo-1485627941502-d2e6429a8af0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3900&q=80");
+  background-image: url("/assets/hero.jpeg");
   background-size: cover;
   border-bottom: 3px solid #33475b;
   position: relative
+}
+
+@media screen and (max-width: 500px) {
+  .homepage-hero { background-position-x: -8em; }
 }
 
 .homepage-hero::before {
@@ -4604,7 +4608,7 @@ html [class*='hsg-ie'] .home-hero-video__infinite {
 }
 
 .homepage-hero__text {
-  h1, p { color: #748294 !important; }
+  h1, p { color: #f5f5f5 !important; }
 }
 
 .cta--primary.homepage-hero-cta {
