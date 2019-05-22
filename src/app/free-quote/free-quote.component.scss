@@ -1,0 +1,72 @@
+.homepage-hero {
+
+  background-image: url("https://images.unsplash.com/photo-1538356343135-65849f66b4a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2852&q=80");
+
+  .homepage-hero__text { max-width: 480px; }
+
+  .homepage-hero__text h1, .homepage-hero__text p {
+    color: #33475b !important;
+  }
+
+  .hsg-microcopy {
+    text-align: right;
+    max-width: inherit;
+    margin-left: 0;
+  }
+
+  .homepage-hero__cta {
+
+    form {
+
+      background: rgba(255, 255, 250, 0.4);
+      padding: 2em;
+      border-radius: 3px;
+
+      .call-to-action { text-align: right; margin-top: 2em; }
+
+      div { margin: 0.6em 0px; }
+
+      label {
+        display: inline-block;
+        width: 10em;
+        margin-right: 2em;
+      }
+
+      input {
+
+        border: none;
+        line-height: 1.5em;
+        padding: 0.5em 1em;
+        border-radius: 2px;
+        width: 50%;
+        font-size: 1em;
+
+        &[type="button"] { padding: 1.5em 1em; }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .homepage-hero {
+    .homepage-hero__cta {
+      form {
+
+        input { width: 100%; }
+
+        div { margin: 1em 0px; text-align: left; }
+
+        .call-to-action {
+          text-align: left;
+          margin-top: 2em;
+
+          .hsg-microcopy { text-align: left; }
+
+        }
+
+      }
+    }
+  }
+
+}

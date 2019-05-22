@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { TermsComponent } from './terms/terms.component';
 import { PrivacyComponent } from './privacy/privacy.component';
+import { FreeQuoteComponent } from './free-quote/free-quote.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { PrivacyComponent } from './privacy/privacy.component';
     HomeComponent,
     ContactComponent,
     TermsComponent,
-    PrivacyComponent
+    PrivacyComponent,
+    FreeQuoteComponent
   ],
   imports: [
     BrowserModule,
