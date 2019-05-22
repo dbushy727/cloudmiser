@@ -22,7 +22,7 @@
       padding: 2em;
       border-radius: 3px;
 
-      .call-to-action { text-align: right; margin-top: 2em; }
+      .call-to-action { text-align: right; margin-top: 2em; margin-right: 1em; }
 
       div { margin: 0.6em 0px; }
 
@@ -50,6 +50,9 @@
 @media screen and (max-width: 500px) {
 
   .homepage-hero {
+
+    background-position: top;
+
     .homepage-hero__cta {
       form {
 
@@ -60,6 +63,7 @@
         .call-to-action {
           text-align: left;
           margin-top: 2em;
+          margin-right: 0;
 
           .hsg-microcopy { text-align: left; }
 
