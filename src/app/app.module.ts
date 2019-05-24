@@ -10,6 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { TermsComponent } from './terms/terms.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { FreeQuoteComponent } from './free-quote/free-quote.component';
+import { ServicesComponent } from './services/services.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FreeQuoteComponent } from './free-quote/free-quote.component';
     ContactComponent,
     TermsComponent,
     PrivacyComponent,
-    FreeQuoteComponent
+    FreeQuoteComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
